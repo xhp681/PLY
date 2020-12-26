@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Rs_Config</RootNamespace>
+    <AssemblyName>Rs.Config</AssemblyName>
+  </PropertyGroup>
+
+</Project>

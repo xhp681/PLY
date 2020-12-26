@@ -1,0 +1,12 @@
+D:\PLY\Rs.PLY\Rs,Config\bin\Debug\net5.0\Rs.Config.deps.json
+D:\PLY\Rs.PLY\Rs,Config\bin\Debug\net5.0\Rs.Config.dll
+D:\PLY\Rs.PLY\Rs,Config\bin\Debug\net5.0\ref\Rs.Config.dll
+D:\PLY\Rs.PLY\Rs,Config\bin\Debug\net5.0\Rs.Config.pdb
+D:\PLY\Rs.PLY\Rs,Config\obj\Debug\net5.0\Rs.Config.csprojAssemblyReference.cache
+D:\PLY\Rs.PLY\Rs,Config\obj\Debug\net5.0\Rs.Config.GeneratedMSBuildEditorConfig.editorconfig
+D:\PLY\Rs.PLY\Rs,Config\obj\Debug\net5.0\Rs.Config.AssemblyInfoInputs.cache
+D:\PLY\Rs.PLY\Rs,Config\obj\Debug\net5.0\Rs.Config.AssemblyInfo.cs
+D:\PLY\Rs.PLY\Rs,Config\obj\Debug\net5.0\Rs.Config.csproj.CoreCompileInputs.cache
+D:\PLY\Rs.PLY\Rs,Config\obj\Debug\net5.0\Rs.Config.dll
+D:\PLY\Rs.PLY\Rs,Config\obj\Debug\net5.0\ref\Rs.Config.dll
+D:\PLY\Rs.PLY\Rs,Config\obj\Debug\net5.0\Rs.Config.pdb
