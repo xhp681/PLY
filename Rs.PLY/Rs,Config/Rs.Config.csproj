@@ -6,4 +6,8 @@
     <AssemblyName>Rs.Config</AssemblyName>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Rs.Cache\Rs.Cache.csproj" />
+  </ItemGroup>
+
 </Project>

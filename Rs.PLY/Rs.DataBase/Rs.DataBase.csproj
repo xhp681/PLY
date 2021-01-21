@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Rs,Config\Rs.Config.csproj" />
+    <ProjectReference Include="..\Rs.Common\Rs.Common.csproj" />
   </ItemGroup>
 
 </Project>

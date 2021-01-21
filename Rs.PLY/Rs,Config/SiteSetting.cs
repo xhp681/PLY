@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Rs.Cache;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Rs_Config
+namespace Rs.Config
 {
     /// <summary>
     /// 系统全局变量配置

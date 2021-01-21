@@ -1,0 +1,15 @@
+D:\PLY\Rs.PLY\Rs.Cache\bin\Debug\net5.0\Rs.Cache.deps.json
+D:\PLY\Rs.PLY\Rs.Cache\bin\Debug\net5.0\Rs.Cache.dll
+D:\PLY\Rs.PLY\Rs.Cache\bin\Debug\net5.0\ref\Rs.Cache.dll
+D:\PLY\Rs.PLY\Rs.Cache\bin\Debug\net5.0\Rs.Cache.pdb
+D:\PLY\Rs.PLY\Rs.Cache\obj\Debug\net5.0\Rs.Cache.csprojAssemblyReference.cache
+D:\PLY\Rs.PLY\Rs.Cache\obj\Debug\net5.0\Rs.Cache.GeneratedMSBuildEditorConfig.editorconfig
+D:\PLY\Rs.PLY\Rs.Cache\obj\Debug\net5.0\Rs.Cache.AssemblyInfoInputs.cache
+D:\PLY\Rs.PLY\Rs.Cache\obj\Debug\net5.0\Rs.Cache.AssemblyInfo.cs
+D:\PLY\Rs.PLY\Rs.Cache\obj\Debug\net5.0\Rs.Cache.csproj.CoreCompileInputs.cache
+D:\PLY\Rs.PLY\Rs.Cache\obj\Debug\net5.0\Rs.Cache.dll
+D:\PLY\Rs.PLY\Rs.Cache\obj\Debug\net5.0\ref\Rs.Cache.dll
+D:\PLY\Rs.PLY\Rs.Cache\obj\Debug\net5.0\Rs.Cache.pdb
+D:\PLY\Rs.PLY\Rs.Cache\bin\Debug\net5.0\Rs.Common.dll
+D:\PLY\Rs.PLY\Rs.Cache\bin\Debug\net5.0\Rs.Common.pdb
+D:\PLY\Rs.PLY\Rs.Cache\obj\Debug\net5.0\Rs.Cache.csproj.CopyComplete

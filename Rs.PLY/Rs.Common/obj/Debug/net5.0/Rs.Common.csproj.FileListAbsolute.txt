@@ -1,0 +1,11 @@
+D:\PLY\Rs.PLY\Rs.Common\bin\Debug\net5.0\Rs.Common.deps.json
+D:\PLY\Rs.PLY\Rs.Common\bin\Debug\net5.0\Rs.Common.dll
+D:\PLY\Rs.PLY\Rs.Common\bin\Debug\net5.0\ref\Rs.Common.dll
+D:\PLY\Rs.PLY\Rs.Common\bin\Debug\net5.0\Rs.Common.pdb
+D:\PLY\Rs.PLY\Rs.Common\obj\Debug\net5.0\Rs.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\PLY\Rs.PLY\Rs.Common\obj\Debug\net5.0\Rs.Common.AssemblyInfoInputs.cache
+D:\PLY\Rs.PLY\Rs.Common\obj\Debug\net5.0\Rs.Common.AssemblyInfo.cs
+D:\PLY\Rs.PLY\Rs.Common\obj\Debug\net5.0\Rs.Common.csproj.CoreCompileInputs.cache
+D:\PLY\Rs.PLY\Rs.Common\obj\Debug\net5.0\Rs.Common.dll
+D:\PLY\Rs.PLY\Rs.Common\obj\Debug\net5.0\ref\Rs.Common.dll
+D:\PLY\Rs.PLY\Rs.Common\obj\Debug\net5.0\Rs.Common.pdb

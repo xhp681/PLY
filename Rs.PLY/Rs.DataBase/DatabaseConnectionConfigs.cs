@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Concurrent;
+using Rs.Cache;
+using Rs.Common;
 using Rs.Config;
 
 namespace Rs.DataBase
@@ -11,22 +13,18 @@ namespace Rs.DataBase
         {
             get
             {
-                Func<ConcurrentDictionary<string, RsConfig>> func = () =>
-                 {
-                     ConcurrentDictionary<string, RsConfig> configs = new ConcurrentDictionary<string, RsConfig>();
-                     try
-                     {
-
-                     }
-                     catch (Exception e)
-                     {
-
-                         throw;
-                     }
-                     return configs;
-                 };
-                //暂时先返回null值，待补充
-                return null;
+                ConcurrentDictionary<string, RsConfig> configs = new ConcurrentDictionary<string, RsConfig>();
+                try
+                {
+                    XmlDataContext xmlCtx = new XmlDataContext(SiteConfig.ConfigDirctor);
+                    var list = xmlCtx.GetXmlList<RsConfig>();
+                    list.ForEach(p => configs[p.Name] = p);
+                }
+                catch (Exception e)
+                {
+                    Log.WebLogger.Error($"Rs.Config读取错误:{e.Message}", e);
+                }
+                return configs;
             }
         }
     }

@@ -10,3 +10,8 @@ D:\PLY\Rs.PLY\Rs,Config\obj\Debug\net5.0\Rs.Config.csproj.CoreCompileInputs.cach
 D:\PLY\Rs.PLY\Rs,Config\obj\Debug\net5.0\Rs.Config.dll
 D:\PLY\Rs.PLY\Rs,Config\obj\Debug\net5.0\ref\Rs.Config.dll
 D:\PLY\Rs.PLY\Rs,Config\obj\Debug\net5.0\Rs.Config.pdb
+D:\PLY\Rs.PLY\Rs,Config\bin\Debug\net5.0\Rs.Cache.dll
+D:\PLY\Rs.PLY\Rs,Config\bin\Debug\net5.0\Rs.Cache.pdb
+D:\PLY\Rs.PLY\Rs,Config\obj\Debug\net5.0\Rs.Config.csproj.CopyComplete
+D:\PLY\Rs.PLY\Rs,Config\bin\Debug\net5.0\Rs.Common.dll
+D:\PLY\Rs.PLY\Rs,Config\bin\Debug\net5.0\Rs.Common.pdb
