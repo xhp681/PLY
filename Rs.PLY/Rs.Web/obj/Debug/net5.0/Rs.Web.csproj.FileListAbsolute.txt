@@ -55,3 +55,4 @@ D:\PLY\Rs.PLY\Rs.Web\obj\Debug\net5.0\ref\Rs.Web.dll
 D:\PLY\Rs.PLY\Rs.Web\obj\Debug\net5.0\Rs.Web.pdb
 D:\PLY\Rs.PLY\Rs.Web\obj\Debug\net5.0\Rs.Web.genruntimeconfig.cache
 D:\PLY\Rs.PLY\Rs.Web\obj\Debug\net5.0\Rs.Web.csproj.CopyComplete
+D:\PLY\Rs.PLY\Rs.Web\obj\Debug\net5.0\Rs.Web.csprojAssemblyReference.cache
