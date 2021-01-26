@@ -14,6 +14,9 @@ namespace Rs.DataBase
         where TExtension : RelationalOptionsExtension, new()
     {
         public abstract MultipleDatabaseType MultipleDatabaseType { get; }
+
+        public abstract Action<DbContextOptionsBuilder, string, Action<IRelationalDbContextOptionsBuilderInfrastructure>> SetUseDatabase { get; }
+
         /// <summary>
         /// 备份数据库方法
         /// <para>如果返回null，则在方法内部完成备份程序</para>
@@ -30,5 +33,12 @@ namespace Rs.DataBase
         /// <param name="tableName"></param>
         /// <returns></returns>
         public abstract string GetDropTableSql(DbContext dbContext, string tableName);
+
+        public void UseDatabase(DbContextOptionsBuilder builder, string connectionString, Action<IRelationalDbContextOptionsBuilderInfrastructure> dbContextOptionsAction = null)
+        {
+            SetUseDatabase(builder, connectionString, b => {
+                dbContextOptionsAction?.Invoke(b);
+            });
+        }
     }
 }

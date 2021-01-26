@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using System;
 using System.Data.Common;
 
 namespace Rs.DataBase
@@ -17,6 +18,14 @@ namespace Rs.DataBase
         /// 数据库类型
         /// </summary>
         MultipleDatabaseType MultipleDatabaseType { get; }
+        Action<DbContextOptionsBuilder, string, Action<IRelationalDbContextOptionsBuilderInfrastructure>> SetUseDatabase { get; }
+        /// <summary>
+        /// 使用数据库
+        /// </summary>
+        /// <param name="builder"></param>
+        /// <param name="connectionString"></param>
+        /// <param name="dbContextOptionsAction"></param>
+        void UseDatabase(DbContextOptionsBuilder builder,string connectionString,Action<IRelationalDbContextOptionsBuilderInfrastructure> dbContextOptionsAction = null);
         /// <summary>
         /// 备份数据库方法
         /// <para>如果返回null，则在方法内部完成备份程序</para>
