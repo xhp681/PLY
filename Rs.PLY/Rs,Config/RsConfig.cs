@@ -1,7 +1,12 @@
 ﻿using System;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace Rs.Config
 {
+    /// <summary>
+    /// 定义系统配置文件
+    /// </summary>
     [Serializable]
     public class RsConfig
     {
