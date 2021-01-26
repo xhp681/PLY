@@ -8,7 +8,7 @@ namespace Rs.DataBase
 {
     static public class DatabaseConnectionConfigs
     {
-        public const string CONFIG_KEY = "_DATABASE_CONNECTION_CONFIG_KEY";
+        //public const string CONFIG_KEY = "_DATABASE_CONNECTION_CONFIG_KEY";
         static public ConcurrentDictionary<string, RsConfig> Configs
         {
             get
@@ -26,6 +26,35 @@ namespace Rs.DataBase
                 }
                 return configs;
             }
+        }
+
+        public static string ClientConnectionString
+        {
+            get
+            {
+                var databaseName = GetFullDatabaseName(SiteConfig.SiteSetting.DatabaseName ?? "Client");
+
+                if (DatabaseConnectionConfigs.Configs != null && DatabaseConnectionConfigs.Configs.ContainsKey(databaseName))
+                {
+                    return DatabaseConnectionConfigs.Configs[databaseName].ConnectionStringFull;
+                }
+                else
+                {
+                    throw new Exception($"无法找到数据库配置：{databaseName}，请在 RsConfig.config 中进行配置");
+                }
+            }
+        }
+
+        /// <summary>
+        /// 获取完整名称
+        /// </summary>
+        /// <param name="databaseName"></param>
+        /// <returns></returns>
+        public static string GetFullDatabaseName(string databaseName)
+        {
+            var currentDatabaseType = DatabaseConfigurationFactory.Instance.Current.MultipleDatabaseType;
+            var fullDatabaseName = $"{databaseName}-{currentDatabaseType}";
+            return fullDatabaseName;
         }
     }
 }

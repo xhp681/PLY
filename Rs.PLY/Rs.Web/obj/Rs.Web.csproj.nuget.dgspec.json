@@ -299,6 +299,15 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "D:\\PLY\\Rs.PLY\\Rs,Config\\Rs.Config.csproj": {
+                "projectPath": "D:\\PLY\\Rs.PLY\\Rs,Config\\Rs.Config.csproj"
+              },
+              "D:\\PLY\\Rs.PLY\\Rs.Cache\\Rs.Cache.csproj": {
+                "projectPath": "D:\\PLY\\Rs.PLY\\Rs.Cache\\Rs.Cache.csproj"
+              },
+              "D:\\PLY\\Rs.PLY\\Rs.Common\\Rs.Common.csproj": {
+                "projectPath": "D:\\PLY\\Rs.PLY\\Rs.Common\\Rs.Common.csproj"
+              },
               "D:\\PLY\\Rs.PLY\\Rs.DataBase\\Rs.DataBase.csproj": {
                 "projectPath": "D:\\PLY\\Rs.PLY\\Rs.DataBase\\Rs.DataBase.csproj"
               }

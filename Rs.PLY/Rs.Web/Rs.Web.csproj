@@ -5,6 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Rs,Config\Rs.Config.csproj" />
+    <ProjectReference Include="..\Rs.Cache\Rs.Cache.csproj" />
+    <ProjectReference Include="..\Rs.Common\Rs.Common.csproj" />
     <ProjectReference Include="..\Rs.DataBase\Rs.DataBase.csproj" />
   </ItemGroup>
 

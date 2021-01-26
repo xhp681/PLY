@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Rs.DataBase
 {
-    public static class Register
+    public static class DependRegister
     {
         /// <summary>
         /// 使用指定数据库
